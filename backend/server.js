@@ -7,8 +7,14 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-const QUIZ_DURATION_MINUTES = parseInt(process.env.QUIZ_DURATION_MINUTES) || 20;
-const QUESTIONS_PER_QUIZ = parseInt(process.env.QUESTIONS_PER_QUIZ) || 14;
+
+// Bulletproof environment variable parsing
+const parsedDuration = parseInt(process.env.QUIZ_DURATION_MINUTES, 10);
+const QUIZ_DURATION_MINUTES = !isNaN(parsedDuration) && parsedDuration > 0 ? parsedDuration : 20;
+
+const parsedQuestions = parseInt(process.env.QUESTIONS_PER_QUIZ, 10);
+const QUESTIONS_PER_QUIZ = !isNaN(parsedQuestions) && parsedQuestions > 0 ? parsedQuestions : 14;
+
 const ADMIN_API_KEY = process.env.ADMIN_API_KEY || 'admin-secret-key';
 const JWT_SECRET = process.env.JWT_SECRET || 'quiz-app-secret';
 
@@ -16,6 +22,12 @@ const JWT_SECRET = process.env.JWT_SECRET || 'quiz-app-secret';
 app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'data')));
+
+// Request logging middleware for Vercel debugging
+app.use((req, res, next) => {
+  console.log(`[Request] ${req.method} ${req.url}`);
+  next();
+});
 
 // In-memory storage for results (in production, use a database)
 let results = [];
