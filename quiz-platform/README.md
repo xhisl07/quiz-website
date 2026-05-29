@@ -175,7 +175,20 @@ The platform includes a comprehensive anti-cheat system that monitors:
 
 ## Deployment Instructions
 
-### Frontend Deployment (Vercel)
+### Unified Deployment (Vercel)
+
+You can deploy the **entire application (both React frontend and Express backend)** in a single Vercel project using the pre-configured serverless setup!
+
+1. **Push your repository** to GitHub, GitLab, or Bitbucket.
+2. **Import your repository** into the Vercel dashboard:
+   - Keep the **Root Directory** as the repository root (`.`).
+   - Vercel will automatically detect `vercel.json`, build the frontend via `@vercel/static-build`, and set up the backend as a Serverless function at `/api` via `@vercel/node`.
+3. **Configure Environment Variables** in the Vercel Project Settings (see below).
+4. **Deploy!** Your application is fully operational under a single domain with zero CORS setup required.
+
+### Alternative Multi-Platform Deployment (Legacy)
+
+#### Frontend Deployment (Vercel)
 
 1. Build the frontend:
    ```bash
@@ -187,7 +200,7 @@ The platform includes a comprehensive anti-cheat system that monitors:
    - Drag and drop the `dist` folder to Vercel dashboard
    - Or connect your GitHub repository and let Vercel deploy automatically
 
-### Backend Deployment (Railway or Render)
+#### Backend Deployment (Railway or Render)
 
 1. Deploy the `/backend` directory to Railway or Render:
    - Connect your GitHub repository

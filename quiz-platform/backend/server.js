@@ -20,10 +20,9 @@ app.use(express.static(path.join(__dirname, 'data')));
 let results = [];
 
 // Load questions
-const questionsPath = path.join(__dirname, 'data', 'questions.json');
 let questions = [];
 try {
-  const questionsData = require(questionsPath);
+  const questionsData = require('./data/questions.json');
   questions = questionsData.questions || [];
 } catch (error) {
   console.error('Error loading questions:', error);
@@ -95,8 +94,8 @@ app.post('/api/quiz/submit', (req, res) => {
 
     // For simplicity, we'll reload questions to check answers
     // In production, you'd store the questions with the session
-    const questionsData = require(questionsPath);
-    const allQuestions = questionsData.questions || [];
+    // We loaded the questions statically at startup, so we can use that array.
+    const allQuestions = questions;
 
     // Since we don't have the exact questions that were sent, we'll need a different approach
     // For this implementation, we'll assume the answers correspond to the first N questions
@@ -187,9 +186,13 @@ app.get('/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-  console.log(`Quiz duration: ${QUIZ_DURATION_MINUTES} minutes`);
-  console.log(`Questions per quiz: ${QUESTIONS_PER_QUIZ}`);
-  console.log(`Total questions available: ${questions.length}`);
-});
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+    console.log(`Quiz duration: ${QUIZ_DURATION_MINUTES} minutes`);
+    console.log(`Questions per quiz: ${QUESTIONS_PER_QUIZ}`);
+    console.log(`Total questions available: ${questions.length}`);
+  });
+}
+
+module.exports = app;
