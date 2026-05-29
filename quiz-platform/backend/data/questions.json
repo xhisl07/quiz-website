@@ -1,0 +1,354 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Rome"],
+      "correct": 2,
+      "explanation": "Paris is the capital and largest city of France."
+    },
+    {
+      "id": 2,
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "correct": 1,
+      "explanation": "Mars is called the Red Planet due to iron oxide on its surface."
+    },
+    {
+      "id": 3,
+      "question": "What is the largest mammal in the world?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "correct": 1,
+      "explanation": "The blue whale is the largest mammal, reaching lengths of up to 100 feet."
+    },
+    {
+      "id": 4,
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+      "correct": 1,
+      "explanation": "William Shakespeare wrote Romeo and Juliet in the late 16th century."
+    },
+    {
+      "id": 5,
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Go", "Gd", "Au", "Ag"],
+      "correct": 2,
+      "explanation": "The chemical symbol for gold is Au, from its Latin name 'aurum'."
+    },
+    {
+      "id": 6,
+      "question": "How many continents are there on Earth?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 2,
+      "explanation": "There are 7 continents: Africa, Antarctica, Asia, Europe, North America, Oceania, and South America."
+    },
+    {
+      "id": 7,
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Platinum"],
+      "correct": 2,
+      "explanation": "Diamond is the hardest natural substance on Earth, scoring 10 on the Mohs scale."
+    },
+    {
+      "id": 8,
+      "question": "Which ocean is the largest?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "correct": 3,
+      "explanation": "The Pacific Ocean is the largest ocean, covering more than 60 million square miles."
+    },
+    {
+      "id": 9,
+      "question": "What gas do plants absorb from the atmosphere?",
+      "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+      "correct": 2,
+      "explanation": "Plants absorb carbon dioxide from the atmosphere during photosynthesis."
+    },
+    {
+      "id": 10,
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+      "correct": 2,
+      "explanation": "Leonardo da Vinci painted the Mona Lisa in the early 16th century."
+    },
+    {
+      "id": 11,
+      "question": "What is the capital of Japan?",
+      "options": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
+      "correct": 2,
+      "explanation": "Tokyo is the capital and largest city of Japan."
+    },
+    {
+      "id": 12,
+      "question": "What is the main ingredient in traditional Japanese miso soup?",
+      "options": ["Tofu", "Seaweed", "Soybeans", "Rice"],
+      "correct": 2,
+      "explanation": "Miso soup is made from fermented soybeans, called miso."
+    },
+    {
+      "id": 13,
+      "question": "Which planet is closest to the Sun?",
+      "options": ["Venus", "Earth", "Mercury", "Mars"],
+      "correct": 2,
+      "explanation": "Mercury is the closest planet to the Sun, with an average distance of about 36 million miles."
+    },
+    {
+      "id": 14,
+      "question": "What is the smallest prime number?",
+      "options": ["0", "1", "2", "3"],
+      "correct": 2,
+      "explanation": "The smallest prime number is 2, which is also the only even prime number."
+    },
+    {
+      "id": 15,
+      "question": "Who discovered penicillin?",
+      "options": ["Marie Curie", "Alexander Fleming", "Louis Pasteur", "Robert Koch"],
+      "correct": 1,
+      "explanation": "Alexander Fleming discovered penicillin in 1928."
+    },
+    {
+      "id": 16,
+      "question": "What is the capital of Australia?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "correct": 2,
+      "explanation": "Canberra is the capital of Australia, selected as a compromise between Sydney and Melbourne."
+    },
+    {
+      "id": 17,
+      "question": "What is the main language spoken in Brazil?",
+      "options": ["Spanish", "Portuguese", "English", "French"],
+      "correct": 1,
+      "explanation": "Portuguese is the official language of Brazil, due to its colonial history."
+    },
+    {
+      "id": 18,
+      "question": "Which scientist developed the theory of relativity?",
+      "options": ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Nikola Tesla"],
+      "correct": 2,
+      "explanation": "Albert Einstein developed the theory of relativity in the early 20th century."
+    },
+    {
+      "id": 19,
+      "question": "What is the largest organ in the human body?",
+      "options": ["Heart", "Liver", "Skin", "Brain"],
+      "correct": 2,
+      "explanation": "The skin is the largest organ in the human body, covering about 20 square feet."
+    },
+    {
+      "id": 20,
+      "question": "What is the currency of the United Kingdom?",
+      "options": ["Euro", "Pound Sterling", "Dollar", "Yen"],
+      "correct": 1,
+      "explanation": "The currency of the United Kingdom is the Pound Sterling (£)."
+    },
+    {
+      "id": 21,
+      "question": "How many sides does a hexagon have?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 1,
+      "explanation": "A hexagon has six sides, as indicated by the prefix 'hexa-' meaning six."
+    },
+    {
+      "id": 22,
+      "question": "What is the boiling point of water at sea level?",
+      "options": ["90°C", "100°C", "110°C", "120°C"],
+      "correct": 1,
+      "explanation": "Water boils at 100°C (212°F) at standard atmospheric pressure."
+    },
+    {
+      "id": 23,
+      "question": "Who was the first person to walk on the Moon?",
+      "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+      "correct": 2,
+      "explanation": "Neil Armstrong was the first person to walk on the Moon on July 20, 1969."
+    },
+    {
+      "id": 24,
+      "question": "What is the tallest mammal?",
+      "options": ["Elephant", "Giraffe", "Hippopotamus", "Rhinoceros"],
+      "correct": 1,
+      "explanation": "The giraffe is the tallest mammal, reaching heights of up to 18 feet."
+    },
+    {
+      "id": 25,
+      "question": "What is the capital of Canada?",
+      "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+      "correct": 2,
+      "explanation": "Ottawa is the capital of Canada, located in the province of Ontario."
+    },
+    {
+      "id": 26,
+      "question": "Which gas makes up the majority of Earth's atmosphere?",
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"],
+      "correct": 2,
+      "explanation": "Nitrogen makes up about 78% of Earth's atmosphere."
+    },
+    {
+      "id": 27,
+      "question": "What is the largest desert in the world?",
+      "options": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Antarctic Desert"],
+      "correct": 3,
+      "explanation": "The Antarctic Desert is the largest desert in the world, covering about 5.5 million square miles."
+    },
+    {
+      "id": 28,
+      "question": "Who wrote the novel '1984'?",
+      "options": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "J.K. Rowling"],
+      "correct": 1,
+      "explanation": "George Orwell wrote the dystopian novel '1984' in 1949."
+    },
+    {
+      "id": 29,
+      "question": "What is the chemical formula for water?",
+      "options": ["H2O", "CO2", "O2", "NaCl"],
+      "correct": 0,
+      "explanation": "The chemical formula for water is H2O, meaning two hydrogen atoms and one oxygen atom."
+    },
+    {
+      "id": 30,
+      "question": "What is the fastest land animal?",
+      "options": ["Lion", "Cheetah", "Leopard", "Tiger"],
+      "correct": 1,
+      "explanation": "The cheetah is the fastest land animal, capable of reaching speeds up to 70 mph."
+    },
+    {
+      "id": 31,
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "options": ["China", "Japan", "South Korea", "Thailand"],
+      "correct": 1,
+      "explanation": "Japan is known as the Land of the Rising Sun due to its eastern position relative to China."
+    },
+    {
+      "id": 32,
+      "question": "What is the main component of natural gas?",
+      "options": ["Propane", "Butane", "Methane", "Ethane"],
+      "correct": 2,
+      "explanation": "Methane (CH4) is the main component of natural gas."
+    },
+    {
+      "id": 33,
+      "question": "Who painted the Starry Night?",
+      "options": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Salvador Dalí"],
+      "correct": 1,
+      "explanation": "Vincent van Gogh painted The Starry Night in 1889."
+    },
+    {
+      "id": 34,
+      "question": "What is the capital of India?",
+      "options": ["Mumbai", "New Delhi", "Bangalore", "Kolkata"],
+      "correct": 1,
+      "explanation": "New Delhi is the capital of India."
+    },
+    {
+      "id": 35,
+      "question": "How many bones are in the adult human body?",
+      "options": ["206", "212", "198", "200"],
+      "correct": 0,
+      "explanation": "The adult human body has 206 bones."
+    },
+    {
+      "id": 36,
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "correct": 2,
+      "explanation": "Jupiter is the largest planet in our solar system."
+    },
+    {
+      "id": 37,
+      "question": "Who invented the telephone?",
+      "options": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Guglielmo Marconi"],
+      "correct": 1,
+      "explanation": "Alexander Graham Bell is credited with inventing the telephone in 1876."
+    },
+    {
+      "id": 38,
+      "question": "What is the pH level of pure water?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 2,
+      "explanation": "Pure water has a neutral pH of 7."
+    },
+    {
+      "id": 39,
+      "question": "Which element has the chemical symbol 'Fe'?",
+      "options": ["Fluorine", "Francium", "Iron", "Fermium"],
+      "correct": 2,
+      "explanation": "The chemical symbol 'Fe' stands for iron, from its Latin name 'ferrum'."
+    },
+    {
+      "id": 40,
+      "question": "What is the main language spoken in Egypt?",
+      "options": ["Arabic", "English", "French", "Hieroglyphics"],
+      "correct": 0,
+      "explanation": "Arabic is the official language of Egypt."
+    },
+    {
+      "id": 41,
+      "question": "What is the capital of Russia?",
+      "options": ["Moscow", "Saint Petersburg", "Kiev", "Warsaw"],
+      "correct": 0,
+      "explanation": "Moscow is the capital of Russia."
+    },
+    {
+      "id": 42,
+      "question": "Which vitamin is produced when skin is exposed to sunlight?",
+      "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+      "correct": 3,
+      "explanation": "Vitamin D is produced when skin is exposed to sunlight."
+    },
+    {
+      "id": 43,
+      "question": "What is the largest island in the world?",
+      "options": ["Greenland", "New Guinea", "Borneo", "Madagascar"],
+      "correct": 0,
+      "explanation": "Greenland is the largest island in the world."
+    },
+    {
+      "id": 44,
+      "question": "Who developed the theory of evolution by natural selection?",
+      "options": ["Gregor Mendel", "Charles Darwin", "Jean-Baptiste Lamarck", "Alfred Wallace"],
+      "correct": 1,
+      "explanation": "Charles Darwin developed the theory of evolution by natural selection."
+    },
+    {
+      "id": 45,
+      "question": "What is the hardest substance known to man?",
+      "options": ["Diamond", "Graphene", "Lonsdaleite", "Wurtzite Boron Nitride"],
+      "correct": 1,
+      "explanation": "While diamond is hard, graphene is actually harder in terms of tensile strength."
+    },
+    {
+      "id": 46,
+      "question": "What is the capital of Brazil?",
+      "options": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+      "correct": 2,
+      "explanation": "Brasília is the capital of Brazil, purpose-built in 1960."
+    },
+    {
+      "id": 47,
+      "question": "Which planet has the most moons?",
+      "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+      "correct": 1,
+      "explanation": "Saturn has the most moons in our solar system, with over 80 confirmed moons."
+    },
+    {
+      "id": 48,
+      "question": "What is the main ingredient in hummus?",
+      "options": ["Chickpeas", "Lentils", "Black Beans", "Kidney Beans"],
+      "correct": 0,
+      "explanation": "The main ingredient in hummus is chickpeas."
+    },
+    {
+      "id": 49,
+      "question": "Who was the first female prime minister of the United Kingdom?",
+      "options": ["Margaret Thatcher", "Theresa May", "Indira Gandhi", "Golda Meir"],
+      "correct": 0,
+      "explanation": "Margaret Thatcher was the first female prime minister of the United Kingdom, serving from 1979 to 1990."
+    },
+    {
+      "id": 50,
+      "question": "What is the smallest bone in the human body?",
+      "options": ["Stapes", "Femur", "Tibia", "Radius"],
+      "correct": 0,
+      "explanation": "The stapes, located in the middle ear, is the smallest bone in the human body."
+    }
+  ]
+}
