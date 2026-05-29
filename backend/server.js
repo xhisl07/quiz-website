@@ -2,6 +2,7 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 require('dotenv').config();
 
 const app = express();
@@ -22,7 +23,9 @@ let results = [];
 // Load questions
 let questions = [];
 try {
-  const questionsData = require('./data/questions.json');
+  const filePath = path.join(__dirname, 'data', 'questions.json');
+  const fileData = fs.readFileSync(filePath, 'utf8');
+  const questionsData = JSON.parse(fileData);
   questions = questionsData.questions || [];
 } catch (error) {
   console.error('Error loading questions:', error);
